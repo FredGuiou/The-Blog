@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  background-color: #F0F2F5;
+}
+
+a {
+  color: #9980FA;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #5758BB;
+}
+
+.banner {
+  background: linear-gradient(135deg, #9980fa 0%,#5758bb 100%);
+  text-align: center;
+  padding: 2rem;
+}
+
+.banner-logo {
+  margin: 0 auto 1rem;
+  width: 3em;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content-title {
+  margin: 1rem;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-meta {
+  font-style: italic;
+}
+
+.card-img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-action {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.post {
+  padding: 1rem;
+  max-width: 40em;
+  margin: 0 auto 2rem;
+}
+
+.post-meta {
+  font-style: italic;
+}
+
+.post-picture {
+  margin: 2rem 0;
+}
+
+.post-content {
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+.post-picture-caption {
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+
+.pure-g [class*=pure-u] {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.pure-menu-item {
+  font-size: 1.25em;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.pure-menu-link {
+  color: white;
+}
+
+.pure-menu-item:last-child {
+  border: none;
+}
+
+.pure-button {
+  background-color: #9980FA;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.pure-button:hover {
+  background-color: #5758BB;
+  color: white;
+}
+
+@media screen and (min-width: 48em) {
+  .banner {
+    min-height: 100vh;
+  }
+
+  .banner-logo {
+    width: 6em;
+  }
+}
