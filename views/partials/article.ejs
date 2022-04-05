@@ -1,0 +1,14 @@
+<article class="card pure-u-1 pure-u-lg-1-2 pure-u-xl-1-3">
+    <header>
+      <img class="card-img pure-img" src="<%= articles.img %>" alt="<%= articles.img_alt %>">
+      <h2><%= articles.title %></h2>
+      <div class="card-meta">
+        Par <a href="#"><%= articles_author %></a> 
+        dans la catégorie <a href="#"><%= articles.catégory %></a>
+      </div>
+    </header>
+    <p>
+      <% = articles.text %>
+    </p>
+    <a class="card-action pure-button" href="article.html">Lire l'article</a>
+  </article>
